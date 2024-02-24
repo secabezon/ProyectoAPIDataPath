@@ -1,3 +1,15 @@
+Descripción de archivos principales del repositorio
+
+1. main.py Ejecuta la aplicación con las funciones declaras en el archivo route.py
+2. route.py Se enlistan todas las funcionalidades de la API
+3. movie_controller.py Se codifica y especifica todas las funcionalidades y metodos que posee la API
+4. Model.py Se Define el esquema de los datos que debe recibir y entregar la API, este servirá para la comunicación con MySQL
+5. requeriments.txt Se enlistan todas las librerias necesarias para la ejecución del proyecto
+
+Descripción General del proyecto
+
+Se genera dentro de este repositorio un proyecto que tiene como fin la generación de una API que sea capaz de conectarse a un contenedor que posea MySQL y dentro de esta, pueda guardar datos sobre peliculas. Para esto se generan archivos Python que definen los distintos metodos, funcionalidades y esquemas que debe poseer los datos al momento de interactuar con MySQL.
+
 Despliegue para una API Básica - Dockerizada (GET, POST, PUT, DELETE)
 
 Esta guía te llevará a través del proceso de construir una API básica con operaciones crear, leer, actualizar y eliminar, usando contenedores Docker. La API interactuará con una base de datos MySQL.
